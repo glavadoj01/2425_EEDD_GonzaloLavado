@@ -44,23 +44,35 @@
 
 ### 1. Crear repositorio local y subir a GITHUB
 
-1. Crea una carpeta llamada `UT2.1.a`.
+1. Crea una carpeta llamada `UT2.1.a`.<br>
+    Esta carpeta la creamos aparte del repositorio principal de la asignatura, ya que es de caracter temporal y/o para
+    trabajo.
+
 2. Inicializa un repositorio local en la carpeta `UT2.1.a`. `adjunta la imagen`<br>
-   ![Inicializar repositorio](img/01.1.png)  --> imagen de ejemplo, sustituye por el nombre de la imagen.
+   ![Inicializar repositorio](img/01.1.png)<br>
+   ```markdown 
+   Verificamos la creación de un repositorio de control de versiones al ver la carpeta ".git"
+   ```
 
 3. Revisa qué rama se ha creado por defecto. ¿Desde dónde los visualizas? `adjunta la imagen`<br>
-   ![Rama por defecto](img/01.2.png) 
+   ![Rama por defecto](img/01.2.png)<br>
+   ```markdown 
+   En la parte inferior del explorador de VS, podemos ver que por defecto se crea la rama "main".
+   ```
 
 4. Renombrar la rama por defecto a `main` en caso de que tenga otro nombre. `adjunta un gif`<br>
-   ![Renombrar rama](img/01.3.gif)
+   > [!NOTE]
+   > Como hemos verificado que la rama es "main", este paso lo omitimos.
    
 5. Agrega un fichero `README.md`.
 
-   ```markdown
+   ```markdown 
    # UT2.1.a
 
    Repositorio de prueba para la tarea 2.1.a
    ```
+    ![Contenido del archivo readme](img/01.5.png)<br>
+
 
 6. Agrega el fichero `README.md` al stage area. `adjunta un gif`<br>
    ![Agregar README](img/01.6.gif)
@@ -88,11 +100,16 @@
     ![Agregar 01.xml](img/01.9.gif)
 
 10. Agrega una nueva rama llamada `fea/wac01` con la ayuda git-graph. `adjunta un gif`<br>
+    ![Creación de rama "fea/wac01"](img/01.10.gif)
     
 11. En qué rama estas ahora mismo? ¿Cómo sabes en qué rama estás? `adjunta la imagen` y explica en breves palabras.
     ```text
     // Respuesta
-    
+    Podemos verificar rapidamente desde el explorador de VS.
+    Otra alternativa seria observar el "circulo sin reyeno" junto al nombre de la rama en GitGraph.
+    O podemos abrir una terminal de GitBash desde VS.
+
+    Ademas, estamos seguros de encontarnos en la nueva rama, ya que hemos clicado "hacer check out" durante la creación.
     ``` 
     ![Rama actual](img/01.11.png)
 
@@ -111,6 +128,7 @@
         </libro>
     </libreria>
     ```
+    ![Comit en Rama fea/wac01: Add file 02](img/01.12.gif)
 
 13. Muestra el log (pantalla de git-graph donde se visualize el commit). `adjunta la imagen`<br>
     ![Log rama fea/wac01](img/01.13.png)
@@ -130,6 +148,7 @@
         </libro>
     </libreria>
     ```
+     ![Creacion de Rama "fea/wac02"](img/01.14.gif)
 
 15. Posicionate en la rama `main` y muestra los ficheros que hay en el directorio. (mostrar el arból de directorios de VS Code). `adjunta la imagen`<br>
     ![Ficheros en main](img/01.15.png)
