@@ -42,6 +42,10 @@
   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
   - [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
 
+> [!NOTE]NOTA ALUMNO:
+> El trabajo se ha realizado utilizando un tema oscuro de alto contraste para facilitar su lectura.<br>
+> https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme
+
 ### 1. Crear repositorio local y subir a GITHUB
 
 1. Crea una carpeta llamada `UT2.1.a`.<br>
@@ -151,13 +155,17 @@
      ![Creacion de Rama "fea/wac02"](img/01.14.gif)
 
 15. Posicionate en la rama `main` y muestra los ficheros que hay en el directorio. (mostrar el arból de directorios de VS Code). `adjunta la imagen`<br>
-    ![Ficheros en main](img/01.15.png)
+    ![Ficheros en main](img/01.15.png)<br>
+    > [!NOTE]
+    > Observamos, que al volver atras en el tiempo al último comit en "main"; han desaparecido los archivos 02.xml y 03.xml.<br><br> Ya que no existian en este punto temporal.
 
 16. Realizar un merge de la rama `fea/wac01` en la rama `main`. `adjunta un gif`<br>
     ![Merge rama fea/wac01](img/01.16.gif)
 
 17. Muestra el el log, y los ficheros que hay en el directorio. (mostrar el arból de directorios de VS Code) `adjunta la imagen`
-    ![Log y ficheros en main](img/01.17.gif)
+    ![Log y ficheros en main](img/01.17.png)
+    > [!NOTE]
+    > Comprobamos que aparecen los archivos existentes en las ramas "main" (01.xml) y "fea/wac01" (02.xml)
     
 18. Elimina la rama `fea/wac01` sin posibilidad de recuperación. `adjunta un gif`<br>
     ![Eliminar rama fea/wac01](img/01.18.gif)
@@ -199,8 +207,8 @@
 22. Realiza un merge de la rama `fea/wac02` en la rama `main`. `adjunta un gif`<br>
     ![Merge rama fea/wac02](img/01.22.gif)
 
-23. Muestra el log del repositorio, y muestra el contenido del fichero `03.xml`. (Imagen visualizando comandos) `adjunta gif`
-    ![Log y ficheros en main](img/01.23.gif)
+23. Muestra el log del repositorio, y muestra el contenido del fichero `03.xml`. (Imagen visualizando comandos) `adjunta imagen`
+    ![Log y ficheros en main](img/01.23.png)
 
 24. Ahora, en la rama `main` modifica el fichero `03.xml` incluyendo un nuevo libro.
 
@@ -260,25 +268,42 @@
     ![Log y ficheros en main](img/01.26.png)
     
 27. Vuelve un commit atrás, y muestra el log y los ficheros que hay en el directorio. `adjunta un gif`<br>
-    ![Volver un commit](img/01.27.gif)
+    ![Volver un commit](img/01.27.gif)<br>
+    >[!NOTE]Nota:
+    > Comprobamos que al volver un commit atras, desaparece el archivo 04.xml del estado actual.
     
 28. Vuelve al commit anterior, y muestra el log y los ficheros que hay en el directorio. `adjunta un gif`<br>
-    ![Volver un commit](img/01.28.gif)
+    ![Volver un commit](img/01.28.gif)<br>
+    >[!NOTE]Nota:
+    > Al volver un 2º commit atras en el tiempo (antes de añadir "El Hobbit"), vemos que el archivo 03.xml se restablece al estado anterior al commit.
 
 29. Posicionate de nuevo en el último commit, y muestra el log y los ficheros que hay en el directorio. `adjunta un gif`
-    ![Volver un commit](img/01.28.gif)
+    ![Volver al commit en cabeza](img/01.29.gif)
 
 ### 2. Crear repositorio remoto y subir a GITHUB
 
 1. Crea un repositorio remoto en GITHUB llamado `EEDD_{NombreApellido}_TE2.1` público, vacio, sin nada.
    
 2. Agrega el repositorio remoto a tu repositorio local. Explica cómo lo haces, y `adjunta una imagen donde se visualizen las url's`<br>
-    ![Repositorio remoto](img/02.2.png)
+    ![Repositorio remoto - Sumbenus](img/02.2.1.png)<br>
 
    ```text
-    // Comentario
-    
+    // Comentario - Para realizar esta tarea:
+
+     1. Abrimos el explorador del control de versiones 
+     2. Abrimos el desplegable de fuentes de versiones (source)
+     3. Submenú "Remote" => Add Remote
+     4. En la linea de comandos superior nos preguntara la url y el nombre del repositorio remoto.
+    ```
+    ![Repositorio remoto - URL](img/02.2.2.png)<br>
+    <br>
+    ![Repositorio remoto - Nombre remoto](img/02.2.3.png)<br>
     ``` 
+    Fé de erratas: Nos muestra el mensaje de "Nombre en uso", debido a que he vuelto a repetir el proceso para mostrar la captura de url/nombre.
+    ```
+
+    > [!NOTE]Nota:
+    > Como podemos observar, no es necesario que el repositorio local y el remoto se llamen igual. Tan solo es necesario realizar correctamente el enlazado de la URL o protocolo SSH
 
 3. Sube la rama `main` al repositorio remoto. `adjunta un gif`<br>
     ![Subir rama main](img/02.3.gif)
@@ -328,29 +353,34 @@
 
    Realiza un commit con el mensaje "Update 03 file. Add book El hombre bicentenario".
    (Muestra pantallazo de GITHUB con el commit realizado) `adjunta la imagen`
+   ![Edicion file 03 en Rama fea/wac02](img/02.5.png)
 
 6. Ahora obten los cambios sin acualizar el repositorio local (`git fetch origin`).<br>
    Muestra el log del repositorio local `adjunta la imagen`
+   ![Comparacion de cambios local/remoto (Git Fetch)](img/02.6.png)
     
 7.  Ahora actualiza el repositorio local con los cambios del repositorio remoto (`git pull`) y muestra el log. `adjunta un gif`<br>
     ![Pull](img/02.7.gif)
+    >[!NOTE]Nota:
+    > Cuando nos pregunta si queremos posicionar el remoto en la rama fea/wac02, pulsamos Sí.
+    > Se realiza otro commit corrigiendo errores de Syntasis en el ficheros 03 xml.
+    > Ya que ese error se corrigio en la rama main y no en la fea/wac2
 
-8.  Haz un merge de la rama `fea/wac02` en la rama `main`. Muestra estado, log, y el contenido fichero `03.xml` (Incluye imagen) `adjunta un gif`<br>
+8.  Haz un merge de la rama `fea/wac02` en la rama `main`. Muestra estado, log, y el contenido fichero `03.xml`
+   >[!NOTE]Nota:
+   > Se realizan los apartados 8 y 9 en el mismo gif. El cual incluye el aceptar los cambios de la version corregida.
+
+9.  Sube la rama `main` al repositorio remoto. `adjunta una gif`<br> (Incluye imagen) `adjunta un gif`<br>
     ![Merge](img/02.8.gif)
 
-9.  Sube la rama `main` al repositorio remoto. `adjunta una gif`<br>
-    ![Subir rama main](img/02.9.gif)
-
 10. Elimina la rama local `fea/wac02` sin posibilidad de recuperación. `adjunta un gif`<br>
-    ![Eliminar rama fea/wac02](img/02.10.gif)
+    ![Eliminar rama local fea/wac02](img/02.10.gif)
 
 11. Elimina la rama remota `fea/wac02` sin posibilidad de recuperación 
-    ```text
-    // Respuesta
+    ![Eliminar rama remota fea/wac02](img/02.11.gif)
     
-    ```
 12. Muestra desde GITHUB (navegador web) las ramas que tienes el en repositorio remoto. `adjunta un gif`<br>
-    ![Ramas en GITHUB](img/02.12.gif)
+    ![Ramas en GITHUB](img/02.12.png)
 
 13. Para finalizar, muestra el log del repositorio local (Incluye imagen) `adjunta la imagen`<br>
     ![Log](img/02.13.png)
@@ -359,6 +389,5 @@
 
 1. Incluye el enlace al repositorio remoto en este punto para que el profesor pueda acceder a él.
    ```text
-    // Enlace al repositorio remoto (en que aparece en la URL del navegador)
-    
+   https://github.com/glavadoj01/EEDD_GonzaloLavado_TE2.1 
     ``` 
