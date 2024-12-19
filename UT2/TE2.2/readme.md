@@ -1,5 +1,3 @@
-PUNTO 2.13
-
 ## TAREA EVALUABLE 2.2. TRABAJO CON GIT (Comandos)
 
 ### Objetivos
