@@ -565,13 +565,6 @@
         Esto es posible, gracias a que tengo bien configurado la syncronizacion de mi carpeta local. Siendo completamente indiferente el pc en el que me encuentre. Siempre tengo el último estado local syncronizado/distribuido en mi nube personal. Por lo que cuando entro en mi carpeta/nube personal, git lee y carga la información/estado almacenada en la carpeta. Manteniendo el historico de commits y cambios que se hayan tanto en local (mi nube personal), como en remoto (en GitHub).
         La unica diferencia, es que cuando hago push de local a remoto, se enviará el nombre de un pc u otro (información contenida en el archivo .gitconfig de la carpeta user).
 
-    COLORARIO 2:<br>
-        No uso la nube de Google. Utilizo OneDrive versión de pago desde antes de este curso. Por lo que antes se me acaba el espacio de almacenamiento de GitHub que el de mi nube personal.
-
-    COLORARIO 3:<br>
-        Si por motivos de privacidad no puedo subir información a la nube de Google o Microsoft, dudo mucho que pueda subirlas a la nube de GitHub. Habria que estudiar la casuistica de cada proyecto y la metodologia de trabajo de las empresas en la que nos encontremos y adaptarnos a los requerimientos.
-        Mientras tanto, todo mí contenido acádemico de años está, y estará, en mi nube personal.
-
 ### 3. Enlace repositorio remoto
 
 1. Incluye el enlace al repositorio remoto en este punto para que el profesor pueda acceder a él.
