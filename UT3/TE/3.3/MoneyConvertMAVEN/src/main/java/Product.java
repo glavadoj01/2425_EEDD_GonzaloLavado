@@ -1,5 +1,3 @@
-package com.softmar;
-
 import org.joda.money.Money;
 
 public class Product {

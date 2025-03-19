@@ -1,5 +1,3 @@
-package com.softmar;
-
 import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;
 
@@ -7,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCart {
-    private List<Product> carroActual;
-    private List<Double> dtos;
+    private final List<Product> carroActual;
+    private final List<Double> dtos;
     private static final double convertDollars = 0.85;
 
     public ShoppingCart() {
