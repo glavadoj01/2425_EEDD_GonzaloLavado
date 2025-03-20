@@ -15,4 +15,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>local-repo</id>
+            <url>file:///C:/Users/Gonzalo/.maven-gonzalo/repo</url>
+        </repository>
+    </distributionManagement>
+
 </project>
