@@ -17,8 +17,8 @@
 
     <distributionManagement>
         <repository>
-            <id>local-repo</id>
-            <url>file:///C:/Users/Gonzalo/.maven-gonzalo/repo</url>
+            <id>gonz-rep</id>
+            <url>file://${env.MAVEN_GONZ}/repo</url>
         </repository>
     </distributionManagement>
 
