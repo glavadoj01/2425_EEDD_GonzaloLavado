@@ -33,11 +33,4 @@
         </dependency>
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>mvn-local</id>
-            <url>file://${env.MAVEN_LOCAL}/repo</url>
-        </repository>
-    </repositories>
-
 </project>
