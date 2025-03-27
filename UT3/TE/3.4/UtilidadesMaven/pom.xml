@@ -19,7 +19,7 @@
         <repository>
             <id>demo-repo</id>
             <name>Repositorio central EEDD</name>
-            <url>http://10.0.10.253:8081/repository/demo-repo/</url>
+            <url>http://157.245.38.33:8081/repository/demo-repo/</url>
         </repository>
     </distributionManagement>
 

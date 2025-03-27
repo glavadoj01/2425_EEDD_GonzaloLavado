@@ -104,7 +104,7 @@ Desde la terminal, ejecuta los siguientes comandos:
 2. `mvn install`.
 
 Esto generará un archivo `.jar` y lo instalará en el repositorio local.
-![Versión 1.0 - Creación de clases y directorios](_res\img\01.01.1.png)
+![Instalación en Repositorio Local](_res/img/00.png)
 
 
 **Comprobar que el archivo se ha subido correctamente**
@@ -112,9 +112,11 @@ Esto generará un archivo `.jar` y lo instalará en el repositorio local.
 En la carpeta `.m2\repository` tendrás instalado el archivo `.jar` de tu proyecto, con la estructura de carpetas de package. En este caso, `com/{apellido1}/{nombre}/utilidades/1.1/utilidades-1.1.jar`.
 
 > Incluye una captura de pantalla donde se visualice la estructura de carpetas y el nombre de carpeta raiz del repositorio local.
+
 > `Crea una carpeta llamada "_resources/img" y guarda las capturas. Vincula estas imágenes al readme`.
 
-![Repositorio Local](_res/img/00.01.png)
+![Versión 1.0 - Creación de clases y directorios](_res\img\LocalRuta.png)
+
 
 **Repetir proceso para cada versión de la librería**.
 
@@ -123,12 +125,16 @@ En la carpeta `.m2\repository` tendrás instalado el archivo `.jar` de tu proyec
 - Cambia la versión en el archivo `pom.xml` y despliega la nueva versión en el repositorio local.
 - Adjunta una captura de pantalla.
 
+![Versión 1.2 - Agregados nuevos métodos](_res\img\LocalV1.2.png)
+
 > Version 1.3
 
 - Cambia la versión en el archivo `pom.xml` y despliega la nueva versión en el repositorio local.
 - Adjunta una captura de pantalla.
 
+![Versión 1.3 - Versión Completa](_res\img\LocalV1.3.png)
 
+![Versión 1.3 - Contenido](_res\img\LocalV1.3_Jar.png)
 
 #### 2. Agregar repositorio maven hosted
 
@@ -195,7 +201,7 @@ Accede a la dirección del repositorio maven hosted y comprueba que el archivo s
 
 > Incluye una captura de pantalla donde se visualice el archivo `.jar` en el repositorio maven hosted.
 
-![Artefacto .jar en repositorio maven hosted](_res/img/01.05.1.png)
+![Repositorio Remoto - V1.1](_res\img\RemotoV1.1.png)
 
 **Repetir proceso para cada versión de la librería**.
 
@@ -203,11 +209,14 @@ Accede a la dirección del repositorio maven hosted y comprueba que el archivo s
 
 - Cambia la versión en el archivo `pom.xml` y despliega la nueva versión en el repositorio local.
 - Adjunta una captura de pantalla.
-![Todas las Versiones en Repositorio Remoto/Distribución](_res/img/01.04.1.png)
+
+![Repositorio Remoto - V1.2](_res\img\RemotoV1.2.png)
 
 > Version 1.3
 
 - Cambia la versión en el archivo `pom.xml` y despliega la nueva versión en el repositorio local.
 - Adjunta una captura de pantalla.
-![Todas las Versiones en Repositorio Remoto/Distribución](_res/img/01.04.1.png)
 
+![Repositorio Remoto - V1.3](_res\img\RemotoV1.3.png)
+
+![Repositorio Remoto - Despliegue](_res\img\RemotoV1.3D.png)
