@@ -1,5 +1,5 @@
-import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;
+import org.joda.money.CurrencyUnit;
 
 import java.util.ArrayList;
 import java.util.List;

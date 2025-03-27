@@ -1,11 +1,11 @@
-import org.joda.money.CurrencyUnit;
-import org.joda.money.Money;
+import org.joda.money.*;
 
 import com.google.common.collect.ImmutableList;
 import org.apache.commons.lang3.StringUtils;
 
-public class Main {
+public class MoneyConvertMaven {
     public static void main(String[] args) {
+        System.out.println("\n\n***********************************************************************");
         // Definir cantidades en diferentes monedas
         Money usdAmount = Money.of(CurrencyUnit.USD, 100);
         CurrencyUnit eur = CurrencyUnit.EUR;

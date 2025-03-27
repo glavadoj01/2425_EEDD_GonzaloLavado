@@ -4,22 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- The Basics -->
     <groupId>com.softmar</groupId>
     <artifactId>MoneyConvertMAVEN</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.joda</groupId>
             <artifactId>joda-money</artifactId>
-            <version>2.0.0</version>
+            <version>2.0.2</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -32,5 +27,75 @@
             <version>3.12.0</version>
         </dependency>
     </dependencies>
+
+    <dependencyManagement/>
+    <modules/>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- Build Settings -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                            <mainClass>MoneyConvertMaven</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.4.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+    <reporting/>
+
+    <!-- More Project Information -->
+    <name>MoneyConvertMAVEN</name>
+    <description>Introducción a los protocolos y metodologías Maven</description>
+    <url/>
+    <inceptionYear>2025</inceptionYear>
+    <licenses/>
+    <organization/>
+    <developers/>
+    <contributors/>
+
+    <!-- Environment Settings -->
+    <issueManagement/>
+    <ciManagement/>
+    <mailingLists/>
+    <scm/>
+    <prerequisites/>
+            <!-- Repositorio local por defecto (.m2): No necesario especificar -->
+    <repositories>
+        <repository>
+            <id>gonz-local-rep</id>
+            <name>Repositorio Local</name>
+            <url>file://C:/Users/${env.USERNAME}/.m2/gonz_repo</url>
+        </repository>
+    </repositories>
+    <pluginRepositories/>
+    <distributionManagement/>
+    <profiles/>
 
 </project>

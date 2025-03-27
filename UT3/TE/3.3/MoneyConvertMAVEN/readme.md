@@ -99,7 +99,7 @@ Editar `pom.xml` y añadir:
 
 ### Crear una Clase de Ejemplo
 
-Crear `Main.java` dentro de `src/main/java/com/example`:
+Crear `MoneyConvertMaven.java` dentro de `src/main/java/com/example`:
 
 ```java
 import org.joda.money.CurrencyUnit;
@@ -107,7 +107,7 @@ import org.joda.money.Money;
 import com.google.common.collect.ImmutableList;
 import org.apache.commons.lang3.StringUtils;
 
-public class Main {
+public class MoneyConvertMaven {
     public static void main(String[] args) {
         Money amount = Money.of(CurrencyUnit.USD, 100.50);
         System.out.println("Cantidad: " + amount);
@@ -138,6 +138,8 @@ public class Main {
    ```sh
    java -jar target/maven-demo-1.0-SNAPSHOT.jar
    ```
+
+![Edición de POM con plugins](img/PomEdit.png)
 
 ---
 ## Repositorios en Maven y Ubicación de Librerías en Windows

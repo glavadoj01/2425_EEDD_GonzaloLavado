@@ -1,5 +1,5 @@
-import org.joda.money.CurrencyUnit;
 import org.joda.money.Money;
+import org.joda.money.CurrencyUnit;
 
 public class CurrencyConverterMAVEN {
     public static Money convert(Money amount, CurrencyUnit targetCurrency, double rate) {
