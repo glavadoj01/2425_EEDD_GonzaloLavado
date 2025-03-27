@@ -115,7 +115,7 @@ En la carpeta `.m2\repository` tendrás instalado el archivo `.jar` de tu proyec
 
 > `Crea una carpeta llamada "_resources/img" y guarda las capturas. Vincula estas imágenes al readme`.
 
-![Versión 1.0 - Creación de clases y directorios](_res\img\LocalRuta.png)
+![Versión 1.0 - Creación de clases y directorios](_res\img\01.png)
 
 
 **Repetir proceso para cada versión de la librería**.
@@ -125,16 +125,16 @@ En la carpeta `.m2\repository` tendrás instalado el archivo `.jar` de tu proyec
 - Cambia la versión en el archivo `pom.xml` y despliega la nueva versión en el repositorio local.
 - Adjunta una captura de pantalla.
 
-![Versión 1.2 - Agregados nuevos métodos](_res\img\LocalV1.2.png)
+![Versión 1.2 - Agregados nuevos métodos](_res\img\02.png)
 
 > Version 1.3
 
 - Cambia la versión en el archivo `pom.xml` y despliega la nueva versión en el repositorio local.
 - Adjunta una captura de pantalla.
 
-![Versión 1.3 - Versión Completa](_res\img\LocalV1.3.png)
+![Versión 1.3 - Versión Completa](_res\img\03.png)
 
-![Versión 1.3 - Contenido](_res\img\LocalV1.3_Jar.png)
+![Versión 1.3 - Contenido](_res\img\03-2.png)
 
 #### 2. Agregar repositorio maven hosted
 
@@ -201,7 +201,7 @@ Accede a la dirección del repositorio maven hosted y comprueba que el archivo s
 
 > Incluye una captura de pantalla donde se visualice el archivo `.jar` en el repositorio maven hosted.
 
-![Repositorio Remoto - V1.1](_res\img\RemotoV1.1.png)
+![Repositorio Remoto - V1.1](_res\img\04.png)
 
 **Repetir proceso para cada versión de la librería**.
 
@@ -210,13 +210,13 @@ Accede a la dirección del repositorio maven hosted y comprueba que el archivo s
 - Cambia la versión en el archivo `pom.xml` y despliega la nueva versión en el repositorio local.
 - Adjunta una captura de pantalla.
 
-![Repositorio Remoto - V1.2](_res\img\RemotoV1.2.png)
+![Repositorio Remoto - V1.2](_res\img\05.png)
 
 > Version 1.3
 
 - Cambia la versión en el archivo `pom.xml` y despliega la nueva versión en el repositorio local.
 - Adjunta una captura de pantalla.
 
-![Repositorio Remoto - V1.3](_res\img\RemotoV1.3.png)
+![Repositorio Remoto - V1.3](_res\img\06.png)
 
-![Repositorio Remoto - Despliegue](_res\img\RemotoV1.3D.png)
+![Repositorio Remoto - Despliegue](_res\img\06-2.png)
