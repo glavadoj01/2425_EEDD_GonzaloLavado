@@ -19,16 +19,18 @@
         Organización de Proyectos y Módulos en IntelliJ IDEA
         + [Práctica 2](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/EC/02/MoneyConvert "Proyecto MoneyConvert") -
         Trabajo con dependencias externas (librerías locales)
+
     + Tareas Evaluables:
         + [Tarea 3.1](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/TE/3.1) -
         Configuración de Eclipse y JetBrains IntelliJ IDEA
         + [Tarea 3.2](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/EC/02/MoneyConvert "Proyecto MoneyConvert") -
          Realizar "Práctica guida 2"
-        + [Tarea 3.3](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/TE/3.3/MoneyConvertMAVEN "Proyecto MoneyConvert MAVEN") -
+        + [Tarea 3.3](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/TE/3.3/MoneyConvertMAVEN "Proyecto MoneyConvertMAVEN") -
         Práctica Guiada: Introducción a Maven
-        + [Tarea 3.4](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/TE/3.4/UtilidadesMaven "Proyecto Utilidades") -
+        + [Tarea 3.4](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/TE/3.4/UtilidadesMaven "Proyecto UtilidadesMaven") -
         Ejercicio 3.4 - Maven
-
+        + [Tarea 3.5](https://github.com/jssdocente/2425_EEDD_recursos/tree/main/UT3/TE/3.5 "Proyecto AnalizadorDatos")
+        Ejercicio 3.5 - Usar librería Maven desplegada en repositorio de clase
 
 ## Para alumnos del centro Suarez de Figueroa:<br>
 
