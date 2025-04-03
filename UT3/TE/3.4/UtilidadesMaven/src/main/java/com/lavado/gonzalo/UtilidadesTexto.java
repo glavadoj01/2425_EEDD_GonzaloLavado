@@ -1,9 +1,9 @@
 package com.lavado.gonzalo;
 
-import java.util.Arrays;
-
 public class UtilidadesTexto {
     public static boolean esPalindromo(String palabra) {
+        palabra = palabra.toLowerCase();
+        palabra = palabra.replaceAll(" ", "");
         for (int i = 0; i < palabra.length()/2; i++) {
             if (palabra.charAt(i) != palabra.charAt(palabra.length()-1-i)) {
                 return false;
@@ -22,25 +22,19 @@ public class UtilidadesTexto {
         return vocales;
     }
     public static int contarConsonantes(String palabra) {
-        int consonantes = 0;
-        for (Character c : palabra.toCharArray()) {
-            if (Character.isLetter(c)) {
-                consonantes++;
-            }
-        }
-        return consonantes - contarVocales(palabra);
+        return contarCaracteres(palabra) - contarVocales(palabra);
     }
     public static int contarPalabras(String cadena) {
-        int palabras = 0;
-        for (Character c : cadena.toCharArray()) {
-            if (c == ' ') { // Se asume un espacio como separador
-                palabras++;
-            }
-        }
-        return palabras;
+        return cadena.split(" ").length;
     }
     // Alternativa => Indicar Cadena + Separador
-    public static int contarPalabras (String cadena, String separador) {
-        return Arrays.asList(cadena.split(separador)).size();
+    public static int contarCaracteres (String cadena) {
+        int cont = 0;
+        for (Character c : cadena.toCharArray()) {
+            if (Character.isLetter(c)) {
+                cont++;
+            }
+        }
+        return cont;
     }
 }

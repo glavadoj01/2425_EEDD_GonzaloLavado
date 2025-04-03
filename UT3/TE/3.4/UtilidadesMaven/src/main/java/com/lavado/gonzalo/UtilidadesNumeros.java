@@ -5,16 +5,10 @@ import java.util.List;
 
 public class UtilidadesNumeros {
     public static boolean esPar(int numero) {
-        if (numero % 2 == 0) {
-            return true;
-        }
-        return false;
+        return numero % 2 == 0;
     }
     public static boolean esImpar(int numero) {
-        if (numero % 2 == 0) {
-            return false;
-        }
-        return true;
+        return numero % 2 != 0;
     }
     public static boolean esPrimo(int numero) {
         if (numero == 2) {
@@ -30,15 +24,15 @@ public class UtilidadesNumeros {
         }
         return true;
     }
-    public static int factorial(int numero) {
-        int fact = 1;
+    public static double factorial(int numero) {
+        double fact = 1;
         for (int i = 1; i <= numero; i++) {
             fact *= i;
         }
         return fact;
     }
     public static List<Integer> devolverDivisores(int numero) {
-        List<Integer> divisores = new ArrayList<Integer>();
+        List<Integer> divisores = new ArrayList<>();
         for (int i = 1; i <= numero; i++) {
             if (numero % i == 0) {
                 divisores.add(i);
@@ -55,9 +49,6 @@ public class UtilidadesNumeros {
             suma += divisor;
         }
 
-        if (suma - numero == numero) {
-            return true;
-        }
-        return false;
+        return suma - numero == numero;
     }
 }
