@@ -29,7 +29,7 @@
         Práctica Guiada: Introducción a Maven
         + [Tarea 3.4](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/TE/3.4/UtilidadesMaven "Proyecto UtilidadesMaven") -
         Ejercicio 3.4 - Maven
-        + [Tarea 3.5](https://github.com/jssdocente/2425_EEDD_recursos/tree/main/UT3/TE/3.5 "Proyecto AnalizadorDatos")
+        + [Tarea 3.5](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/TE/3.5 "Proyecto AnalizadorDatos")
         Ejercicio 3.5 - Usar librería Maven desplegada en repositorio de clase
 
 ## Para alumnos del centro Suarez de Figueroa:<br>
