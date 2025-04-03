@@ -21,6 +21,7 @@ public class Main {
                         sc.nextLine();
                         AnalizadorNumerico.analizaNumerico(num);
                     } catch (Exception e) {
+                        sc.nextLine();
                         System.out.println("\nError: Ingresar un número entero\n");
                     }
                     break;

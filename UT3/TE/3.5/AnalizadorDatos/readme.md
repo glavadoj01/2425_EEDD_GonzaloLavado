@@ -4,8 +4,8 @@ El objetivo de este ejercicio es usar la librería Maven desplegada en el servid
 
 ## Alumnos que realizan la actividad:
 
-- Alumno 1: 
-- Alumno 2: 
+- Alumno 1: Gonzalo Lavado Jaén
+- Alumno 2: Daniel Gordillo Gutierrez
 
 
 ### Recursos

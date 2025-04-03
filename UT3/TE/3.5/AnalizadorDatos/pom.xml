@@ -9,10 +9,16 @@
     <version>1.0</version>
 
     <dependencies>
-        <dependency>
+<!--        <dependency>
             <groupId>com.lavado.gonzalo</groupId>
             <artifactId>UtilidadesMaven</artifactId>
             <version>1.4</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.gordillo.daniel</groupId>
+            <artifactId>utilidadesMaven</artifactId>
+            <version>1.3</version>
         </dependency>
     </dependencies>
 
@@ -21,6 +27,12 @@
             <id>demo-repo</id>
             <url>http://157.245.38.33:8081/repository/demo-repo/</url>
         </repository>
+
+<!--        <repository>
+            <id>demo-repo</id>
+            <name>Repositorio Central EEDD</name>
+            <url>http://10.10.0.253:8081/repository/demo-repo/</url>
+        </repository>-->
     </repositories>
 
     <properties>
