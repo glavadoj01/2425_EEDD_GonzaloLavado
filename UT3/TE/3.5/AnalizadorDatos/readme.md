@@ -290,3 +290,6 @@ Ejemplo de ejecución del programa:
     📌 Salida esperada:
     
     👋 ¡Gracias por usar el Analizador de Datos! Hasta pronto.
+
+> Demostración de funcionamiento
+![Demostración](_res/img/01.0.gif)

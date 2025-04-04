@@ -1,10 +1,12 @@
 package com.lavado.gonzalo;
 
 import java.text.DecimalFormat;
+import com.gordillo.daniel.UtilidadesNumeros;
 
 public class AnalizadorNumerico {
     public static void analizaNumerico(int num) {
         DecimalFormat df = new DecimalFormat("#");
+
 
         System.out.println("Análisis del número: " + num);
         System.out.println("¿Es par? " + UtilidadesNumeros.esPar(num));
