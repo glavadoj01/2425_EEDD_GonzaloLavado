@@ -1,4 +1,4 @@
-package com.lavado.gonzalo;
+package com.lavado.gonzalo.AnalizadorDatos;
 
 import java.text.DecimalFormat;
 import com.gordillo.daniel.UtilidadesNumeros;

@@ -1,4 +1,4 @@
-package com.lavado.gonzalo;
+package com.lavado.gonzalo.AnalizadorDatos;
 
 import com.gordillo.daniel.UtilidadesTextos;
 
