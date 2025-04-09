@@ -1,4 +1,4 @@
-import com.lavado.gonzalo.UtilidadesNumeros;
+import com.lavado.gonzalo.UtilidadesMaven.UtilidadesNumeros;
 
 public class TestUtilidadesNumeros {
     public static void main(String[] args) {

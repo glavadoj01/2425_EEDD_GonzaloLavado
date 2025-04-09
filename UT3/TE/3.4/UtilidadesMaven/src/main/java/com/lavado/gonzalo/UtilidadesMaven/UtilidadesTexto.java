@@ -1,4 +1,4 @@
-package com.lavado.gonzalo;
+package com.lavado.gonzalo.UtilidadesMaven;
 
 public class UtilidadesTexto {
     public static boolean esPalindromo(String palabra) {

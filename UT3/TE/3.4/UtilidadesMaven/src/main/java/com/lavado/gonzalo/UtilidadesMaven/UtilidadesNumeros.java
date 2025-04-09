@@ -1,4 +1,4 @@
-package com.lavado.gonzalo;
+package com.lavado.gonzalo.UtilidadesMaven;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-import com.lavado.gonzalo.UtilidadesTexto;
+import com.lavado.gonzalo.UtilidadesMaven.UtilidadesTexto;
 
 public class TestUtilidadesTexto {
     public static void main(String[] args) {
