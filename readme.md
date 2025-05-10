@@ -9,7 +9,6 @@
 + Unidad didáctica 2
     + [Tarea 2.1](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT2/TE2.1) -
     Trabajo con GIT mediante Visual Studio Code
-
     + [Tarea 2.2](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT2/TE2.2) -
     Trabajo con GIT mediante Consola de comandos
 
@@ -31,6 +30,11 @@
         Ejercicio 3.4 - Maven
         + [Tarea 3.5](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT3/TE/3.5 "Proyecto AnalizadorDatos")
         Ejercicio 3.5 - Usar librería Maven desplegada en repositorio de clase
+
++ Unidad didáctica 4
+    + Tareas Evaluables
+        + [Tarea 4.2](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT4/TE/4.2) - Análisis de Algoritmos y Complejidad Ciclomática
+        + [Tarea 4.3](https://github.com/glavadoj01/2425_EEDD_GonzaloLavado/tree/main/UT4/TE/4.3 "Proyecto AprendiendoJUnit") - Unit Testing con JUnit 5
 
 ## Para alumnos del centro Suarez de Figueroa:<br>
 
